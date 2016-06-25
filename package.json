@@ -1,0 +1,22 @@
+{
+  "name": "Examples",
+  "version": "0.0.1",
+  "description": "Javascript Examples.",
+  "main": "''",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --host 0.0.0.0"
+  },
+  "author": "YreenChan",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-classes-simple": "^1.0.0",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
+    "html-loader": "^0.4.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}
